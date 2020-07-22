@@ -8,4 +8,4 @@ The criteria includes:
 4) Current price no more than 1.5x book value per share
 5) Earnings increase of 10% over 4 years
 
-The algorithm loops through a csv file taken from https://old.nasdaq.com/screening/company-list.aspx and searches securities listed on stock exchanges
+The algorithm loops through a csv file taken from https://old.nasdaq.com/screening/company-list.aspx to retrieve symbols used in the search since the Yahoo Finance API doesn't contain an API function to return all symbols/tickers available on the API.
