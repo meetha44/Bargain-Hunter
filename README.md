@@ -19,4 +19,4 @@ Instructions on how to run the code:
   -Install the yfinance module for the Yahoo Finance API (type "pip install yfinance --upgrade --no-cache-dir" into the terminal)
   -Install pandas (by typing "pip install pandas" into the terminal)
 3. Open "Bargain Hunter" or "Bargain HunterV2" in a Python IDE and press run.
-4. Wait for the 
+4. Wait for the output
