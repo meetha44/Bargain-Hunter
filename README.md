@@ -14,3 +14,9 @@ This algorithm aims to find large and financially stable companies whose stock p
 After using this algorithm, I realised the largest bottleneck was waiting for data to be retrieved from the API. To reduce this bottleneck, I implemented parallel processing which includes downloading multiple pieces of information concurrently. This has substantially improved the time efficiency of the algorithm.
 
 Instructions on how to run the code:
+1. Download the CSV file along with either the "Bargain Hunter.py" or "Bargain HunterV2.py" files. Store the files together in one folder.
+2. Install the dependencies:
+  -Install the yfinance module for the Yahoo Finance API (type "pip install yfinance --upgrade --no-cache-dir" into the terminal)
+  -Install pandas (by typing "pip install pandas" into the terminal)
+3. Open "Bargain Hunter" or "Bargain HunterV2" in a Python IDE and press run.
+4. Wait for the 
