@@ -4,7 +4,7 @@ A simple algorithm to look through companies and pick out stocks that meet the c
 The criteria includes:
 1) Long term debt less than 1.1x current assets.
 2) Current assets at least 1.5x current liabilities
-3) P/E ratio <= 15
+3) Price/Earnings ratio <= 15
 4) Current price no more than 1.5x book value per share
 5) Minimum earnings increase of 10% over 4 years
 
