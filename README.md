@@ -9,7 +9,7 @@ The criteria includes:
 5) Minimum earnings increase of 10% over 4 years
 
 The algorithm loops through a csv file taken from https://old.nasdaq.com/screening/company-list.aspx to retrieve symbols used in the search since the Yahoo Finance API does not contain a request function to return all symbols/tickers available on the API.
-This algorithm aims to find large and financially stable companies whose stock price is currently undervalued (due to a bear market, or a temporary factor such as bad news that has affected a stock's price dramatically)
+This algorithm aims to find large and financially stable companies whose stock price is currently undervalued.
 
 After using this algorithm, I realised the largest bottleneck was waiting for data to be retrieved from the API. To reduce this bottleneck, I implemented parallel processing which includes downloading multiple pieces of information concurrently. This has substantially improved the time efficiency of the algorithm.
 
