@@ -20,3 +20,7 @@ Instructions on how to run the code:
   -Install pandas (by typing "pip install pandas" into the terminal)
 3. Open "Bargain Hunter" or "Bargain HunterV2" in a Python IDE and press run.
 4. Wait for the output
+
+The API continues to be the bottleneck in the algorithm. This is because the API is free of charge and limits the requests to 500 per hour along with limited features, but is the best free finance API available. A paid service would drastically improve the efficiency of the algorithm. 
+
+
